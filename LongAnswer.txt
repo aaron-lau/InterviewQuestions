@@ -1,0 +1,50 @@
+1.Shortest path
+def (matrix, source, dest):
+	call BFS on source cell
+	Queue q 
+	q.push(source)
+	visited[][] // all to be false
+	while !q.empty():
+		currCell = q.pop()
+		if currCell == dest:
+			return currCell.distance
+
+Spam check
+
+Sum two integers in string form
+	Account for overflow
+	Throw into an array of digits 
+How to map an IP address to a server?  
+Given a list of n words. Print the most frequent 10. 
+
+4. Dependency tree with no redependency
+O(V+E)
+get correct order
+double check order back
+
+
+The difference between a process and a thread.  
+	Process provides resources needed to execute a program. Process has virtual address space, executable code and at least one thread of execution (primary thread)
+	Thread is an entity within a process that can be scheduled for execution. Share virtual address space and system resources. In addition, each thread maintains exception handlers, a scheduling priority, thread local storage, a unique thread identifier, and a set of structures the system will use to save the thread context until it is scheduled. 
+
+What happens when you click enter on a website  
+	1. DNS maps website URL to particular IP
+	2. Browser cache, OS cache, router cache, and ISP cache
+	3. If not cached, DNS query to find IP address of server that hosts website
+		hierarchy of DNS lookup -> root DNS -> .com DNS -> google.com DNS -> maps.google.com DNS
+	4. TCP protocol used for HTTP request
+	5. three way handshake (SYN, SYNACK, ACK)
+	6. Sends HTTP request to the webserver
+	7. Server sents HTTP response 
+	8. Browser displays information
+
+Given a list of numbers, write a function that combines those numbers in arithmetic expression to obtain the value T. The allowed operations are +, -, *, and /. Parenthesis are also allowed.  
+
+Polymorphism in Java has two types: 
+Compile time polymorphism (static binding) and Runtime polymorphism (dynamic binding). 
+Method overloading is an example of static polymorphism, while method overriding is an example of dynamic polymorphism.
+Method overloading means there are several methods present in a class having the same name but different types/order/number of parameters.
+
+The stack is the memory set aside as scratch space for a thread of execution. When a function is called, a block is reserved on the top of the stack for local variables and some bookkeeping data. When that function returns, the block becomes unused and can be used the next time a function is called. The stack is always reserved in a LIFO (last in first out) order; the most recently reserved block is always the next block to be freed. This makes it really simple to keep track of the stack; freeing a block from the stack is nothing more than adjusting one pointer.
+
+The heap is memory set aside for dynamic allocation. Unlike the stack, there's no enforced pattern to the allocation and deallocation of blocks from the heap; you can allocate a block at any time and free it at any time. This makes it much more complex to keep track of which parts of the heap are allocated or free at any given time; there are many custom heap allocators available to tune heap performance for different usage patterns.
