@@ -1,3 +1,12 @@
+# An "Array Integer" is an integer represented by an array, where each digit of the integer is an element in the array. 
+# For example, the value 123 (one hundred twenty three) would be stored as follows, note the least significant digit is in the zero-th position.
+
+# arrayInt[0] = 3;
+
+# arrayInt[1] = 2;
+
+# arrayInt[2] = 1;
+
 # Implement a method that, given an "ArrayInteger", increments the value by one.
 
 # Ex. Given the inputs 123, the result would be
