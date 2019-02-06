@@ -1,18 +1,12 @@
-# An "Array Integer" is an integer represented by an array, where each digit of the integer is an element in the array. 
-# For example, the value 123 (one hundred twenty three) would be stored as follows, note the least significant digit is in the zero-th position.
+# Implement a method that, given an "ArrayInteger", increments the value by one.
 
-# arrayInt[0] = 3;
+# Ex. Given the inputs 123, the result would be
+
+# arrayInt[0] = 4;
 
 # arrayInt[1] = 2;
 
 # arrayInt[2] = 1;
-# Implement a method that, given an "ArrayInteger", increments the value by one.
-
-# Please use the following method signature
-
-# public static int[] incrementArrayInt(int[] arrayInt);
-# YOU MAY NOT CONVERT THE ARRAY INTO A NUMBER AND THEN BACK INTO AN ARRAY. 
-# THERE MAY BE NO VALUE STORED IN ANY ARRAY GREATER THAN NINE (9).
 
 import sys
 
