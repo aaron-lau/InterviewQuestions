@@ -10,17 +10,6 @@ def subArraySumToTarget(array, target):
 			if currSum == target:
 				currSum = 0
 
-def twoSum(array, target):
-	sumMap = {}
-	returnList = []
-	for i in range(len(array)):
-		complement = target - array[i]
-		if complement in sumMap:
-			returnList.append((complement, array[i]))
-			# return (sumMap[complement], i)
-		sumMap[array[i]]= i
-	return returnList
-
 def threeSum(array, target):
 	array.sort()
 	for i in range(len(array) - 2):
