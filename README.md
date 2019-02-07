@@ -19,3 +19,7 @@ Implement a method that, given an "ArrayInteger", multiplies another "ArrayInteg
 ## findSmallestIntegerNotInArray
 
 Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
+
+## twoElementSum.py
+
+Given an array of numbers, return every pair of numbers that can be added up to a given target
