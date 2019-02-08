@@ -21,7 +21,6 @@ def twoSum(array, target):
 
 	return returnList
 
-
 # print(twoSum([], 0))
 # print(twoSum([1,2,3,4,-5], -4))
 # print(twoSum([5, -2, 4, 9, 1], 6))

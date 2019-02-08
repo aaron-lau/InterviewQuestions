@@ -10,27 +10,6 @@ def subArraySumToTarget(array, target):
 			if currSum == target:
 				currSum = 0
 
-def threeSum(array, target):
-	array.sort()
-	for i in range(len(array) - 2):
-		a = array[i]
-		start = i + 1
-		end = len(array) - 1
-		while start < end:
-			b = array[start]
-			c = array[end]
-			if a + b + c == target:
-				print (a,b,c)
-				# continue search for all triplet combinations summing to zero
-				if b == array[start + 1]:
-					start += 1
-				else:
-					end -= 1
-			elif a + b + c > target:
-				end -= 1
-			else:
-				start += 1
-
 def searchRotatedArray (arr, start, end,target):
 	if start > end:
 		return -1
@@ -60,7 +39,6 @@ def powers (a, b):
 		else:
 			return p*p*a
 
-# 
 def sqrt(x):
     lastGuess= x/2.0
     while True:
@@ -123,7 +101,6 @@ def is_power2(num):
 	return num != 0 and ((num & (num - 1)) == 0)
 
 # Python program to segregate even and odd elements of array
- 
 def segregateEvenOdd(arr):
     # Initialize left and right indexes
     left,right = 0,len(arr)-1
@@ -183,7 +160,6 @@ def countNumPaths(n,m):
 
 
 def main():
-	# print (twoSum([7, 4, 10, -6, -2, 13, 2, 0, 17, 9, 6, 15, -4], 13))
 	# print (powers(2,8))
 	# inputArr = [4, 5, 6, 7, 8, 9, 1, 2, 3]
 	# print (searchRotatedArray(inputArr,0,len(inputArr)-1, 6))
