@@ -19,3 +19,20 @@ Implement a method that, given an "ArrayInteger", multiplies another "ArrayInteg
 ## findSmallestIntegerNotInArray
 
 Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
+
+## twoElementSum.py
+
+Given an array of numbers, return every pair of numbers that can be added up to a given target
+
+## threeElementSum.py
+
+Given an array of numbers, return every triplet of numbers that can be added up to a given target
+
+## insertIntervalAndMerge.py
+
+Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
+
+## mergeIntervals.py
+
+Given a collection of intervals, merge all overlapping intervals.
+
